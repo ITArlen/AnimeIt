@@ -44,6 +44,7 @@ h1{
     -moz-transition: all 600ms;
     -webkit-transition: all 600ms;
     transition: all 600ms;
+		z-index: 2;
 }
 
 #sidebar.active {
@@ -83,6 +84,7 @@ h1{
     padding: 10px;
     border-radius: 12px;
     cursor: pointer;
+		z-index: 2;
 }
 
 #sidebar .toggle-btn:hover{background-color: #556270;}
@@ -109,9 +111,11 @@ h1{
 	align-items: center;
 }
 
+
 .item_video{
 	width: 400px;
-
+	height: 400px;
+	
 }
 .items{
 	padding: 50px 0;
